@@ -6,16 +6,26 @@ A clean, responsive academic portfolio website template for researchers, PhD stu
 
 ## Features
 
-- **Five pages** — Home, Publications, Software, Teaching, and Contact
-- **Home page sections** — Hero with profile photo, Education, Research interests, News, Selected publications, Talks, Students, Awards, Grants, Service, and Bio
-- **Publications page** — Grouped by type (Conference, Journal, Workshop, Preprint, Technical Report, Thesis, Poster, In Preparation) with links to PDF, arXiv, DOI, Code, and Slides
-- **Software / Projects page** — Project cards with descriptions, tags, GitHub and demo links
-- **Teaching page** — Course listing with semester-by-semester role history
-- **Contact page** — Links to email, GitHub, LinkedIn, Google Scholar, and ORCID; location derived from your profile data
-- **Smooth animations** via Framer Motion
-- **Responsive design** — works on mobile, tablet, and desktop
-- **Single data file** — all content lives in `src/data/portfolio.ts` and `src/data/publications.ts`
-- **GitHub Pages deployment** — one command deploys the built site
+- **Five pages**
+  - Home, Publications, Software, Teaching, and Contact
+- **Home page sections**
+  - Hero with profile photo, Education, Research interests, News, Selected publications, Talks, Students, Awards, Grants, Service, and Bio
+- **Publications page**
+  - Grouped by type (Conference, Journal, Workshop, Preprint, Technical Report, Thesis, Poster, In Preparation) with links to PDF, arXiv, DOI, Code, and Slides
+- **Software / Projects page**
+  - Project cards with descriptions, tags, GitHub and demo links
+- **Teaching page**
+  - Course listing with semester-by-semester role history
+- **Contact page**
+  - Links to email, GitHub, LinkedIn, Google Scholar, and ORCID; location derived from your profile data
+- **Smooth animations**
+  - Via Framer Motion
+- **Responsive design**
+  - Works on mobile, tablet, and desktop
+- **Single data file**
+  - All content lives in `src/data/portfolio.ts` and `src/data/publications.ts`
+- **GitHub Pages deployment**
+  - One command deploys the built site
 
 ## Tech Stack
 
@@ -39,7 +49,7 @@ A clean, responsive academic portfolio website template for researchers, PhD stu
 ### 1. Clone or fork the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio-website-template.git
+git clone git@github.com:xinzhouhe/portfolio-website-template.git
 cd portfolio-website-template
 ```
 
