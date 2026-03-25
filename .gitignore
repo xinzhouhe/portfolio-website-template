@@ -1,0 +1,41 @@
+# =====================
+# Node / Vite
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# Build output
+# =====================
+dist/
+dist-ssr/
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# OS / Editor noise
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# =====================
+# Coverage / tooling
+# =====================
+coverage/

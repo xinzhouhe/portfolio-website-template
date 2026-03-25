@@ -1,0 +1,54 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "IBM Plex Sans",
+      "count": 19
+    }
+  ],
+  "colors": {
+    "primary": "#FDF9E6",
+    "accent": "#820000",
+    "background": "#FFFFFF",
+    "textPrimary": "#820000",
+    "link": "#820000"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "IBM Plex Sans",
+      "heading": "IBM Plex Sans"
+    },
+    "fontStacks": {
+      "body": [
+        "IBM Plex Sans"
+      ],
+      "heading": [
+        "IBM Plex Sans"
+      ],
+      "paragraph": [
+        "IBM Plex Sans"
+      ]
+    },
+    "fontSizes": {
+      "h1": "32px",
+      "h2": "32px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "5px"
+  },
+  "components": {},
+  "images": {
+    "logo": null,
+    "favicon": "File saved at: attached_assets/favicon.jpg",
+    "ogImage": null
+  },
+  "__framework_hints": [],
+  "confidence": {
+    "buttons": 0,
+    "colors": 0,
+    "overall": 0
+  }
+}

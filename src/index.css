@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Academic Minimalist Palette */
+  --background: 0 0% 100%;       /* #FFFFFF */
+  --foreground: 0 0% 20%;        /* Dark Gray text */
+  
+  --primary: 0 100% 25%;         /* #820000 Dark Red */
+  --primary-foreground: 0 0% 100%; /* White */
+  
+  --secondary: 48 60% 95%;       /* #FDF9E6 Cream */
+  --secondary-foreground: 0 0% 20%;
+  
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+  
+  --accent: 0 100% 25%;          /* Same as primary for consistency in this minimal style */
+  --accent-foreground: 0 0% 100%;
+  
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 0 100% 25%;
+  
+  --radius: 0.25rem; /* Sharper corners for academic look */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+    color: hsl(var(--primary));
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--primary) / 0.7);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.section-padding {
+  @apply py-10 md:py-16;
+}
+
+.container-custom {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
